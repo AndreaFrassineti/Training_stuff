@@ -53,36 +53,34 @@ def init_db():
             ("Volume", "Potenziamento Dita 2", "Reverse Finger Curl", "4x10-12", "1'30''", ""),
             ("Volume", "Potenziamento Dita 2", "Arcing", "almeno 25'", "-", ""),
 
-            # IPERTROFIA
-            ("Ipertrofia", "Potenziamento 1", "Addome 12 Libr. + 30'' Planche + 15 Laterali", "2x", "2'", ""),
-            ("Ipertrofia", "Potenziamento 1", "Trazioni Zavorrate", "3x10", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento 1", "Rematori TRX", "4x10", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento 1", "Flessioni", "4x10", "1'15''", ""),
-            ("Ipertrofia", "Potenziamento Dita 1", "Back Fing. Curl + Fing. Curl", "5xCed (12)", "1'45''", ""),
-            ("Ipertrofia", "Potenziamento Dita 1", "Reverse Finger Curl", "4x10-12", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento Dita 1", "Pinch Grip", "4x 12'' vic. ced", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento Dita 1", "Hammer Curl", "3x10", "1'", ""),
-            ("Ipertrofia", "Potenziamento 2", "Addome Anelli", "10 + Barchetta 30''", "1'30''", "2 serie"),
-            ("Ipertrofia", "Potenziamento 2", "Flessioni Inclinata", "4x7", "1'30''", "Aumenta carichi"),
-            ("Ipertrofia", "Potenziamento 2", "Military Press", "3x10", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento 2", "Trazioni", "4x7", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento Dita 2", "Back Fing. Curl + Fing. Curl", "5xCed (12)", "1'45''", ""),
-            ("Ipertrofia", "Potenziamento Dita 2", "Reverse Finger Curl", "4x10-12", "1'30''", ""),
-            ("Ipertrofia", "Potenziamento Dita 2", "Arcing", "almeno 20'", "-", ""),
-
             # FORZA
-            ("Forza", "Potenziamento 1", "Trazioni Zavorrate", "3-2-1-2-3", "4'30''", "85%-90%-120%"),
+            ("Forza", "Potenziamento 1", "Trazioni Zavorrate", "3-2-1-2-3", "4'30''", "85%-90%-120% rest 4'30''"),
             ("Forza", "Potenziamento 1", "Addome alla Sbarra", "3x8", "2'", ""),
+            ("Forza", "Potenziamento 1", "Military Press", "3x6", "3'", "Carico altino"),
             ("Forza", "Potenziamento Dita 1", "Pinch Grip", "3x 6'' on", "4'", "@90%"),
-            ("Forza", "Potenziamento Dita 1", "3 Finger Drag 20mm", "3x 6'' on", "4'", "@90%"),
-            ("Forza", "Potenziamento Dita 1", "Bidito 20mm", "3x 6'' on", "4'", "@90%"),
+            ("Forza", "Potenziamento Dita 1", "Half Crimp 20mm", "3x 6'' on", "4'", "@90%"),
             ("Forza", "Potenziamento 2", "Lock Off Puleggia", "3x (20-90-120) 5s", "4'30''", ""),
             ("Forza", "Potenziamento 2", "Rematori TRX", "2x6", "4'", "@80% max"),
             ("Forza", "Potenziamento 2", "Controlli Front Lever", "3x2", "3'", ""),
-            ("Forza", "Potenziamento 2", "Military Press", "3x6", "3'", "Carico elevato"),
-            ("Forza", "Potenziamento Dita 2", "Pinch Grip", "1x 6'' on", "4'", "@90%"),
-            ("Forza", "Potenziamento Dita 2", "3 Finger Drag 20mm", "3x 6'' on", "4'", "@90%"),
-            ("Forza", "Potenziamento Dita 2", "Bidito 20mm", "3x 6'' on", "4'", "@90%"),
+            ("Forza", "Potenziamento Dita 2", "Pinch Grip", "3x 6'' on", "4'", "@90%"),
+            ("Forza", "Potenziamento Dita 2", "Half Crimp 20mm", "3x 6'' on", "4'", "@90%"),
+
+            # RESISTENZA ALLA FORZA
+            ("Resistenza alla Forza", "Potenziamento 1", "Addome 12 Libr. + 30'' Planche + 15 Laterali", "2x", "2'", ""),
+            ("Resistenza alla Forza", "Potenziamento 1", "Trazioni Zavorrate", "3x10", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento 1", "Rematori TRX", "4x10", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento 1", "Flessioni", "4x10", "1'15''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 1", "Back Fing. Curl + Fing. Curl", "5xCed (12)", "1'45''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 1", "Reverse Finger Curl", "4x10-12", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 1", "Pinch Grip", "4x 12'' vic. ced", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 1", "Hammer Curl", "3x10", "1'", ""),
+            ("Resistenza alla Forza", "Potenziamento 2", "Addome Anelli", "10 + Barchetta 30''", "1'30''", "2 serie"),
+            ("Resistenza alla Forza", "Potenziamento 2", "Flessioni Inclinata", "4x7", "1'30''", "Aumenta carichi"),
+            ("Resistenza alla Forza", "Potenziamento 2", "Military Press", "3x10", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento 2", "Trazioni", "4x7", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 2", "Back Fing. Curl + Fing. Curl", "5xCed (12)", "1'45''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 2", "Reverse Finger Curl", "4x10-12", "1'30''", ""),
+            ("Resistenza alla Forza", "Potenziamento Dita 2", "Arcing", "almeno 20'", "-", ""),
         ]
         cursor.executemany("INSERT INTO esercizi (categoria, blocco, nome, schema_serie_reps, recupero, note) VALUES (?, ?, ?, ?, ?, ?)", esercizi_data)
 
@@ -91,7 +89,7 @@ def init_db():
 
 init_db()
 
-# --- FUNZIONI DI UTILITÀ DB ---
+# --- FUNZIONI UTILI ---
 def get_esercizi_dict():
     conn = sqlite3.connect(DB_FILE)
     rows = conn.execute("SELECT id, nome, categoria, blocco FROM esercizi ORDER BY categoria, blocco, nome").fetchall()
@@ -101,7 +99,6 @@ def get_esercizi_dict():
 # --- HEADER PRINCIPALE ---
 st.title("🏋️‍♂️ Diario Allenamento & Periodizzazione")
 
-# Navigation Tabs (perfetti per touch da mobile)
 tab_diario, tab_planning, tab_schede, tab_stats = st.tabs([
     "✏️ Diario Allenamento", 
     "📅 Planning & Fasi", 
@@ -110,7 +107,7 @@ tab_diario, tab_planning, tab_schede, tab_stats = st.tabs([
 ])
 
 # ==========================================
-# TAB 1: DIARIO ALLENAMENTO (In primis per velocizzare in palestra)
+# TAB 1: DIARIO ALLENAMENTO
 # ==========================================
 with tab_diario:
     st.subheader("📝 Registra Serie / Esercizio")
@@ -156,7 +153,6 @@ with tab_diario:
     if not df_diario.empty:
         st.dataframe(df_diario.drop(columns=["id"]), use_container_width=True, hide_index=True)
         
-        # Possibilità di cancellare una riga sbagliata
         with st.expander("🗑️ Elimina una registrazione errata"):
             id_to_del = st.selectbox("Seleziona ID da eliminare", df_diario["id"].tolist(), format_func=lambda x: f"ID {x} - {df_diario[df_diario['id']==x]['Esercizio'].values[0]} ({df_diario[df_diario['id']==x]['Data'].values[0]})")
             if st.button("Elimina Registrazione", type="primary"):
@@ -169,38 +165,38 @@ with tab_diario:
         st.info("Ancora nessuna sessione registrata.")
 
 # ==========================================
-# TAB 2: PLANNING & FASI
+# TAB 2: PLANNING & FASI (AGGIORNATO)
 # ==========================================
 with tab_planning:
     st.subheader("📌 Calendario Periodizzazione Fasi")
     
     df_fasi = pd.DataFrame([
-        {"Fase": "VOLUME 🟠", "Data Inizio": "14 Settembre", "Data Fine": "10 Ottobre"},
-        {"Fase": "IPERTROFIA 🔴", "Data Inizio": "12 Ottobre", "Data Fine": "24 Ottobre"},
-        {"Fase": "FORZA 🟣", "Data Inizio": "26 Ottobre", "Data Fine": "16 Dicembre"}
+        {"Fase": "VOLUME 🟠", "Periodo": "14 Settembre - 5 Ottobre", "Note": "Segue Settimana di Scarico ⬇️"},
+        {"Fase": "FORZA 🟣", "Periodo": "12 Ottobre - 8 Novembre", "Note": "Segue Settimana di Scarico ⬇️"},
+        {"Fase": "RESISTENZA ALLA FORZA 🔴", "Periodo": "16 Novembre - 12 Dicembre", "Note": "Poche rep, fatte bene"}
     ])
     st.table(df_fasi)
 
     st.divider()
     st.subheader("🏋️ Scheda dei 3 Giorni di Allenamento")
 
-    fase_scelta = st.radio("Seleziona Fase:", ["VOLUME", "IPERTROFIA", "FORZA"], horizontal=True)
+    fase_scelta = st.radio("Seleziona Fase:", ["VOLUME", "FORZA", "RESISTENZA ALLA FORZA"], horizontal=True)
 
     planning_data = {
         "VOLUME": [
-            ("GIORNO 1", "• **Potenziamento 1** (Addome 12 Libr., Trazioni Zav, Rematori TRX, Flessioni)\n\n• **Potenziamento Dita 1** (Critical Force)\n\n• **4x4**"),
-            ("GIORNO 2", "• **Riscaldamento**\n\n• **Moonboard** (blocchi facili 26c con mosse challenging)\n\n• **Circuiti**"),
-            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinata, Trazioni, Military)\n\n• **Potenziamento Dita 2** (Back/Finger Curl, Reverse Curl, Arcing)\n\n• **Corda**")
-        ],
-        "IPERTROFIA": [
-            ("GIORNO 1", "• **Potenziamento 1** (Addome Planche, Trazioni Zav, Rematori TRX, Flessioni)\n\n• **Potenziamento Dita 1** (Finger Curl, Reverse Curl, Pinch Grip, Hammer Curl)"),
-            ("GIORNO 2", "• **Riscaldamento & Scalata**\n\n• **Blocchi + Circuiti** ad alta intensità"),
-            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinati, Military, Trazioni 4x7)\n\n• **Potenziamento Dita 2** (Finger Curl, Reverse Curl, Arcing)")
+            ("GIORNO 1", "- **Potenziamento 1** (Addome 12 Libr., Trazioni Zav, Rematori TRX, Flessioni)\n- **Potenziamento Dita 1** (Critical Force)\n- **4x4**"),
+            ("GIORNO 2", "- **Riscaldamento**\n- **Moonboard** (blocchi facili 26c con mosse challenging)\n- **8 Vie 6A -> 6C**"),
+            ("GIORNO 3", "- **Potenziamento 2** (Addome Anelli, Flessioni Inclinata, Trazioni, Military)\n- **Potenziamento Dita 2** (Back/Finger Curl, Reverse Curl, Arcing)\n- **Circuiti**")
         ],
         "FORZA": [
-            ("GIORNO 1", "• **Potenziamento Forza 1** (Trazioni Zav 3-2-1-2-3 @85-120%, Addome Sbarra)\n\n• **Forza Dita 1** (Pinch Grip @90%, 3 Finger Drag @90%, Bidito @90%)"),
-            ("GIORNO 2", "• **Riscaldamento**\n\n• **Lavoro su Blocchi Hard / Progetto**"),
-            ("GIORNO 3", "• **Potenziamento Forza 2** (Lock Off Puleggia, Rematori TRX, Front Lever, Military)\n\n• **Forza Dita 2** (Pinch Grip, 3 Finger Drag, Bidito)")
+            ("GIORNO 1", "- **Potenziamento 1** (Trazioni Zav 3-2-1-2-3 @85-120%, Addome Sbarra, Military Press)\n- **Forza Dita 1** (Pinch Grip @90%, Half Crimp 20mm @90%)\n- **Blocchi al limite** (6 min. rest)"),
+            ("GIORNO 2", "- **Riscaldamento**\n- **Moonboard** (blocchi al limite - 6 min rest)"),
+            ("GIORNO 3", "- **Potenziamento 2** (Lock Off Puleggia, Rematori TRX, Front Lever)\n- **Forza Dita 2** (Pinch Grip @90%, Half Crimp 20mm @90%)\n- **3x3 con giubbotto** (2 min rest. + 6 min rest.)")
+        ],
+        "RESISTENZA ALLA FORZA": [
+            ("GIORNO 1", "- **Potenziamento 1** (Addome Planche, Trazioni Zav, Rematori TRX, Flessioni / Finger Curl, Reverse Curl, Pinch Grip, Hammer Curl)\n- **Blocchi a gruppi di 2** (poche rep, fatte bene)"),
+            ("GIORNO 2", "- **Riscaldamento**\n- **Moonboard** (3 blocchi da fare di fila. Pausa 8 min - 5 rep.)"),
+            ("GIORNO 3", "- **Potenziamento 2** (Addome Anelli, Flessioni Inclinati, Military, Trazioni 4x7 / Finger Curl, Reverse Curl, Arcing)\n- **3/4 Vie al limite** (20/30 min rest.)")
         ]
     }
 
@@ -217,7 +213,7 @@ with tab_schede:
 
     col_f, col_b = st.columns(2)
     with col_f:
-        filter_fase = st.selectbox("Filtra per Fase", ["Tutte", "Volume", "Ipertrofia", "Forza"])
+        filter_fase = st.selectbox("Filtra per Fase", ["Tutte", "Volume", "Forza", "Resistenza alla Forza"])
     with col_b:
         filter_blocco = st.selectbox("Filtra per Blocco", ["Tutti", "Potenziamento 1", "Potenziamento Dita 1", "Potenziamento 2", "Potenziamento Dita 2"])
 
@@ -239,7 +235,7 @@ with tab_schede:
 
     with st.expander("➕ Aggiungi un Nuovo Esercizio"):
         with st.form("add_ex_form", clear_on_submit=True):
-            fase_in = st.selectbox("Fase", ["Volume", "Ipertrofia", "Forza"])
+            fase_in = st.selectbox("Fase", ["Volume", "Forza", "Resistenza alla Forza"])
             blocco_in = st.selectbox("Blocco", ["Potenziamento 1", "Potenziamento Dita 1", "Potenziamento 2", "Potenziamento Dita 2"])
             nome_in = st.text_input("Nome Esercizio")
             schema_in = st.text_input("Serie / Reps")
