@@ -188,19 +188,19 @@ with tab_planning:
 
     planning_data = {
         "VOLUME": [
-            ("GIORNO 1", "• **Potenziamento 1** (Addome 12 Libr., Trazioni Zav, Rematori TRX, Flessioni)\n• **Potenziamento Dita 1** (Critical Force)\n• **4x4**"),
-            ("GIORNO 2", "• **Riscaldamento**\n• **Moonboard** (blocchi facili 26c con mosse challenging)\n• **Circuiti**"),
-            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinata, Trazioni, Military)\n• **Potenziamento Dita 2** (Back/Finger Curl, Reverse Curl, Arcing)\n• **Corda**")
+            ("GIORNO 1", "• **Potenziamento 1** (Addome 12 Libr., Trazioni Zav, Rematori TRX, Flessioni)\n\n• **Potenziamento Dita 1** (Critical Force)\n\n• **4x4**"),
+            ("GIORNO 2", "• **Riscaldamento**\n\n• **Moonboard** (blocchi facili 26c con mosse challenging)\n\n• **Circuiti**"),
+            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinata, Trazioni, Military)\n\n• **Potenziamento Dita 2** (Back/Finger Curl, Reverse Curl, Arcing)\n\n• **Corda**")
         ],
         "IPERTROFIA": [
-            ("GIORNO 1", "• **Potenziamento 1** (Addome Planche, Trazioni Zav, Rematori TRX, Flessioni)\n• **Potenziamento Dita 1** (Finger Curl, Reverse Curl, Pinch Grip, Hammer Curl)"),
-            ("GIORNO 2", "• **Riscaldamento & Scalata**\n• **Blocchi + Circuiti** ad alta intensità"),
-            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinati, Military, Trazioni 4x7)\n• **Potenziamento Dita 2** (Finger Curl, Reverse Curl, Arcing)")
+            ("GIORNO 1", "• **Potenziamento 1** (Addome Planche, Trazioni Zav, Rematori TRX, Flessioni)\n\n• **Potenziamento Dita 1** (Finger Curl, Reverse Curl, Pinch Grip, Hammer Curl)"),
+            ("GIORNO 2", "• **Riscaldamento & Scalata**\n\n• **Blocchi + Circuiti** ad alta intensità"),
+            ("GIORNO 3", "• **Potenziamento 2** (Addome Anelli, Flessioni Inclinati, Military, Trazioni 4x7)\n\n• **Potenziamento Dita 2** (Finger Curl, Reverse Curl, Arcing)")
         ],
         "FORZA": [
-            ("GIORNO 1", "• **Potenziamento Forza 1** (Trazioni Zav 3-2-1-2-3 @85-120%, Addome Sbarra)\n• **Forza Dita 1** (Pinch Grip @90%, 3 Finger Drag @90%, Bidito @90%)"),
-            ("GIORNO 2", "• **Riscaldamento**\n• **Lavoro su Blocchi Hard / Progetto**"),
-            ("GIORNO 3", "• **Potenziamento Forza 2** (Lock Off Puleggia, Rematori TRX, Front Lever, Military)\n• **Forza Dita 2** (Pinch Grip, 3 Finger Drag, Bidito)")
+            ("GIORNO 1", "• **Potenziamento Forza 1** (Trazioni Zav 3-2-1-2-3 @85-120%, Addome Sbarra)\n\n• **Forza Dita 1** (Pinch Grip @90%, 3 Finger Drag @90%, Bidito @90%)"),
+            ("GIORNO 2", "• **Riscaldamento**\n\n• **Lavoro su Blocchi Hard / Progetto**"),
+            ("GIORNO 3", "• **Potenziamento Forza 2** (Lock Off Puleggia, Rematori TRX, Front Lever, Military)\n\n• **Forza Dita 2** (Pinch Grip, 3 Finger Drag, Bidito)")
         ]
     }
 
